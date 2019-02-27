@@ -10,4 +10,12 @@ package WhipGeneratorEE.src;
 public class WhipGenEducation
 {
     
+    
+    public static void main (String [] arguments)
+    {
+        GeneratorMode g = new GeneratorMode();
+        WhipGeneratorGUI gui = new WhipGeneratorGUI(g);
+        g.setGUI(gui);
+    }
+    
 }
